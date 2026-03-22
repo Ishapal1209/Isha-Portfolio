@@ -461,6 +461,7 @@ section {
 
 .about-grid {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 300px 1fr; /* fixed image + flexible text */
   gap: 20px; /* reduced gap */
   align-items: center;
@@ -502,6 +503,11 @@ section {
 
 .about-photo-card:hover {
   transform: scale(1.05);
+=======
+  grid-template-columns: 1fr 380px;
+  gap: 56px;
+  align-items: start;
+>>>>>>> bd53bb7d0a7e2fd06fb33dbbdb08d907fe5d4964
 }
 .about-text p {
   color: var(--muted);
